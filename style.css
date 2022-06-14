@@ -1,0 +1,154 @@
+body{
+    padding: 100px; 
+    font-size:25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background: rgb(255, 255, 255);
+}
+
+.maincontainer{
+    position: relative; 
+    justify-content: center; 
+    text-align: center; 
+    padding:20px; 
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #c6c6c6;
+    border-radius: 5px;
+}
+
+.timecontainer{
+    display:flex; 
+    font-family:'digital-clock-font';
+    /* border: 10px dashed rgb(10, 10, 10);  */
+    justify-content: center;
+    text-align: center;  
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #ffffff;
+}
+
+.stopwatch-container{
+    display:flex; 
+    /* border: 10px dashed black; */
+    justify-content: center;				
+    text-align: center; 
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #ffffff;
+}
+
+.stopwatch_headings{
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #c6c6c6;
+    width: 100%;
+    color: rgb(14, 13, 13);
+    font-weight: bolder;
+    /* border: 2px solid black; */
+}
+
+.setting{
+    flex: center; 
+    width: 100px; 
+    margin: 20px; 
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #ffffff;
+    color: rgb(19, 18, 18);
+
+}
+
+.setting2{
+    width: 100%;  
+    color: rgb(10, 10, 10);
+    /* border: 2px solid black; */
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #ffffff;
+}
+
+.setfont{
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.stopwatch-text{
+    color: rgb(39, 39, 38);
+    font-family:'digital-clock-font';
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.decasecond{
+    font-size: 40px;
+    color: rgb(32, 31, 31);
+    font-weight: bolder;
+}
+
+.decastyle{
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #ffffff;
+     border-radius: 10px;
+     padding: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.start-button{
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #ffffff; 
+    color: rgb(26, 25, 25);
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.stop-button{
+    background: #e0e0e0;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #ffffff; 
+    color: rgb(26, 25, 25);
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.reset-button{
+    background: #ffffff;
+    box-shadow: 5px 5px 10px #c1c1c1,
+              -5px -5px 10px #ffffff; 
+    color: rgb(26, 25, 25);
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+@media screen and (max-width: 580px){
+    body{
+        padding: 10px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 900px){
+    body{
+        padding: 10px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px; 
+    }
+}
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('Technology-Bold.ttf');
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="timecontainer">
+            <div id="hourtime" class="setfont" style="color: rgb(22, 22, 22)">00</div>
+            <div class="setfont" style="color: rgb(22, 22, 22)">:</div>
+            <div id="mintime" class="setfont" style="color: rgb(22, 22, 22)">00</div>
+            <div class="setfont" style="color: rgb(22, 22, 22)">:</div>
+            <div id="sectime" class="setfont" style="width:80px; color: rgb(22, 22, 22)">00</div>
+        </div>
+        <br>
+        <div class="stopwatch-container">
+            <div class="setting">
+                <div class="stopwatch_headings">H</div>
+                    <div id="hrs" class="stopwatch-text setting2">00</div>
+                </div>
+            <div class="setting">
+                <div class="stopwatch_headings">M</div>
+                <div id="min" class="stopwatch-text setting2">00</div>
+            </div>
+            <div class="setting">
+                <div class="stopwatch_headings">S</div>
+                <div id="sec" class="stopwatch-text setting2">00</div>
+            </div>
+            <div class="setting decastyle">Dsec<br><div id="msec" class="decasecond">00</div></div>
+        </div>
+        <br>
+        <button onclick="commence()" type="button" id="start" 
+        name="start" class="start-button">Start</button>
+        <button onclick="stoptime()" type="button" id="stop"
+        name="stop" class="stop-button">Stop</button>
+        <button onclick="location.reload()" type="button" id="reset" 
+        name="reset" class="reset-button">Reset</button>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
